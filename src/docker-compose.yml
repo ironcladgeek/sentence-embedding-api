@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: unless-stopped
+    ports:
+      - "8888:80"
+    image: embedding_img
+    container_name: embedding_cnt
