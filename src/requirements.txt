@@ -1,6 +1,4 @@
 fastapi==0.87.0
 uvicorn==0.20.0
 loguru==0.5.3
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==1.12.1+cpu
-sentence-transformers==2.2.2
+numpy==1.21.0
