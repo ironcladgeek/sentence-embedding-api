@@ -128,7 +128,7 @@ curl -X 'GET' \
 ```
 
 **Sample output**:
-``bash
+```bash
 {
   "message": "OK"
 }
