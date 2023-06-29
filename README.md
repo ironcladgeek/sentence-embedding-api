@@ -115,7 +115,7 @@ curl -X 'POST' \
 
 **Description**: This endpoint is used for checking whether the application is running.
 
-**URL**: http://127.0.0.1:8888//api/v1/health
+**URL**: http://127.0.0.1:8888/api/v1/health
 
 **Method**: `GET`
 
