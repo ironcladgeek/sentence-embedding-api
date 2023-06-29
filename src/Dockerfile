@@ -5,7 +5,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # install dependencies
-COPY ./requirements.txt /tmp/requirements.txt
+COPY ./requirements/prod.txt /tmp/requirements.txt
 RUN pip install \
     --no-cache-dir \
     -r /tmp/requirements.txt
